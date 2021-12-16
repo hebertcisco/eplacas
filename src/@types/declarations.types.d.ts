@@ -1,1 +1,1 @@
-declare module 'react-native-ios-kit';
+declare module '@react-native-community';

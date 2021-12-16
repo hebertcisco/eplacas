@@ -1,8 +1,10 @@
 module.exports = {
-  root: true,
-  extends: '@react-native-community',
-  rules: {
-    "no-shadow": "off",
-    "@typescript-eslint/no-shadow": ["error"],
-  },
+    root: true,
+    extends: [
+        '@react-native-community',
+        'airbnb-typescript',
+        'prettier',
+        'prettier/@typescript-eslint',
+        'prettier/react'
+    ]
 };
