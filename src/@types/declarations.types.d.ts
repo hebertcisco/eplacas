@@ -1,1 +1,4 @@
-declare module '@react-native-community';
+declare module '@env' {
+  export const API_URL: string;
+  export const API_TOKEN: string;
+}
