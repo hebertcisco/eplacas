@@ -80,14 +80,12 @@ Firebase was used in the project to catch errors and monitoring. You will need t
 Assuming that you have [**Node 14 LTS**](https://nodejs.org/en/download/) or greater installed, you can use npm to install the dependencies:
 
 ```sh
-npm install i
+npm install
 ```
 
 This will start a development server for you.
 
 ```sh
-npm install
-
 npm start
 ```
 
