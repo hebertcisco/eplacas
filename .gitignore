@@ -63,3 +63,4 @@ android/app/google-services.json
 .env
 google-services.json
 appcenter-config.json
+**/release/**
