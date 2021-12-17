@@ -13,6 +13,6 @@ jobs:
             - name: Install dependencies
               run: npm install
             - name: Create credentials
-              run: yarn write:config
+              run: sudo chmod +x scripts/write-app-config.js && sudo npm run write:config
             - name: Build application
               run: yarn install && cd android && chmod +x gradlew && ./gradlew assembleDebug
