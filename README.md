@@ -11,8 +11,8 @@
     <a href="https://github.com/hebertcisco/eplacas/pulls">
       <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/hebertcisco/eplacas?style=flat&color=336791" />
     </a>
-     <a href="https://travis-ci.com/hebertcisco/eplacas">
-      <img alt="Build Status" src="https://travis-ci.com/hebertcisco/eplacas.svg?branch=master" />
+     <a href="https://app.travis-ci.com/hebertcisco/eplacas">
+      <img alt="Build Status" src="https://app.travis-ci.com/hebertcisco/eplacas.svg?branch=master" />
     </a>
     <a href="https://circleci.com/gh/hebertcisco/eplacas">
       <img alt="CircleCI" src="https://circleci.com/gh/hebertcisco/eplacas.svg?style=svg" />
