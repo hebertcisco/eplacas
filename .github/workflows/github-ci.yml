@@ -10,5 +10,7 @@ jobs:
             - uses: actions/checkout@v2
             - name: Envinfo
               run: npx envinfo
+            - name: Create credentials
+              run: yarn write:config
             - name: Build application
-              run: yarn install &&  npm run write:config && cd android && chmod +x gradlew && ./gradlew assembleDebug
+              run: yarn install && cd android && chmod +x gradlew && ./gradlew assembleDebug
