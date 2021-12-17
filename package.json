@@ -34,7 +34,7 @@
         "@react-native-community/eslint-config": "^2.0.0",
         "@types/axios": "^0.14.0",
         "@types/dotenv": "^8.2.0",
-        "@types/jest": "^26.0.23",
+        "@types/jest": "26.0.24",
         "@types/react-icons": "^3.0.0",
         "@types/react-native": "^0.66.4",
         "@types/react-native-dotenv": "^0.2.0",
