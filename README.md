@@ -62,9 +62,9 @@ If you want to run the application in your local environment you will need to se
 ### Clone the repository
 
 ```sh
-git clone https://github.com/tecnobert/randpass
+git clone https://github.com/hebertcisco/eplacas
 
-cd randpass
+cd eplacas
 ```
 
 ## Important notes
