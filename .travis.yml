@@ -8,4 +8,4 @@ before_install:
 
 script:
 - docker run --rm --name rn-env reactnativecommunity/react-native-android bash -c "npm i -g envinfo && envinfo"
-- docker run --rm --name rn-build -v $PWD:/pwd -w /pwd reactnativecommunity/react-native-android bash -c "yarn install && yarn write:config && cd android && chmod +x gradlew && ./gradlew assembleRelease"
+- docker run --rm --name rn-build -v $PWD:/pwd -w /pwd reactnativecommunity/react-native-android bash -c "yarn install && yarn write:config && cd android && chmod +x gradlew && ./gradlew assembleDebug"
