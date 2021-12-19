@@ -40,7 +40,7 @@
 
 ## Bonus features
 
--   [ ] O usuário pode verificar se a placa veicular é válida
+-   [x] O usuário pode verificar se a placa veicular é válida
 
 ## Useful links and resources
 
