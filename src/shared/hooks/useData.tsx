@@ -9,7 +9,7 @@ export const DataContext = React.createContext({});
 
 export const DataProvider = ({ children }: { children: React.ReactNode }) => {
     const handleSearchResult = useCallback((id: string) => {
-        const baseURL = `/placa/${id}`;
+        const baseURL = `/consulta/${id}`;
         return api
             .get(baseURL)
             .then((result: AxiosResponse<ISearchResult>) => {

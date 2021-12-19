@@ -8,8 +8,12 @@ dotenv.config();
 const api = axios.create({
     baseURL: process.env.API_URL,
     headers: {
-        Authorization: `Bearer ${process.env.API_TOKEN}`
+        'x-api-key': `${process.env.API_TOKEN}`
     }
+});
+const { data } = await api({
+    method: 'get',
+    url: '/configs/1'
 });
 async function writeAppConfig() {
     const androidBasePath = path.join(__dirname, '../android');
@@ -19,14 +23,10 @@ async function writeAppConfig() {
             'app/google-services.json'
         );
         console.log(`Writing firebase config to ${firebasePath}`);
-        const { data } = await api({
-            method: 'get',
-            url: '/config/firebase'
-        });
 
         return fs.writeFileSync(
             firebasePath,
-            JSON.stringify(data[0]?.firebaseConfig, null, 2)
+            JSON.stringify(data.firebaseConfig, null, 2)
         );
     }
     async function appCenter() {
@@ -34,16 +34,10 @@ async function writeAppConfig() {
             androidBasePath,
             'app/src/main/assets/appcenter-config.json'
         );
-        const { data } = await api({
-            method: 'get',
-            url: '/config/appCenter'
-        });
-        const appcenter = {
-            app_secret: data[0].app_secret
-        };
+        console.log(`Writing app center config to ${appCenterPath}`);
         return fs.writeFileSync(
             appCenterPath,
-            JSON.stringify(appcenter, null, 2)
+            JSON.stringify(data.appCenter, null, 2)
         );
     }
     async function exec() {
