@@ -86,7 +86,7 @@ const SearchResult: React.FC<TypeProps> = ({ route }) => {
                         borderStyle={{ borderWidth: 2, borderColor: '#c8e1ff' }}
                     >
                         <Row
-                            data={['Municipio', 'UF', 'Placa', 'Situação']}
+                            data={['Municipio', 'UF', 'Situação']}
                             style={styles.head}
                             textStyle={styles.text}
                         />
@@ -95,7 +95,6 @@ const SearchResult: React.FC<TypeProps> = ({ route }) => {
                                 [
                                     search_result.municipio,
                                     search_result.uf,
-                                    search_result.placa,
                                     search_result.situacao
                                 ]
                             ]}
