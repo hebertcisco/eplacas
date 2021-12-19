@@ -11,14 +11,11 @@
     <a href="https://github.com/hebertcisco/eplacas/pulls">
       <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/hebertcisco/eplacas?style=flat&color=336791" />
     </a>
-     <a href="https://app.travis-ci.com/hebertcisco/eplacas">
-      <img alt="Build Status" src="https://app.travis-ci.com/hebertcisco/eplacas.svg?branch=master" />
+<a href="https://rapidapi.com/tecnobertinfo@gmail.com/api/eplacas/">
+      <img alt="API Build" src="https://app.travis-ci.com/hebertcisco/eplacas-api.svg?token=szEd4h6zscKEu4AcaFRL&branch=master" />
     </a>
     <a href="https://circleci.com/gh/hebertcisco/eplacas">
       <img alt="CircleCI" src="https://circleci.com/gh/hebertcisco/eplacas.svg?style=svg" />
-    </a>
- <a href="https://github.com/hebertcisco/eplacas">
-      <img alt="Github Actions" src="https://github.com/hebertcisco/eplacas/workflows/Github%20Actions/badge.svg" />
     </a>
  <a href="https://gitpod.io/#https://github.com/hebertcisco/eplacas">
       <img alt="Gitpod ready-to-code" src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" />
@@ -107,6 +104,34 @@ npm run ios
 
 ## CI Currently includes:
 
--   circleci
--   travis-ci
--   github actions
+- circleci
+
+# Portuguese api documentation
+
+## Documentação E-Placas API
+
+> Link para obter chaves da API: [https://eplacas.p.rapidapi.com/subscription](https://rapidapi.com/tecnobertinfo@gmail.com/api/eplacas/)
+
+Essa é a documentação básica relacionada à API do E-Placas. Será descrito como a API funciona, como utilizar a mesma, e como utilizar os serviços disponíveis.
+
+> **Este documento é um guia de uso da API.**
+
+### Endpoints disponíveis
+
+#### (/status) - Verificação de status da API
+    GET /status HTTP/1.1
+    Host: eplacas.p.rapidapi.com
+    x-rapidapi-host: eplacas.p.rapidapi.com
+    x-rapidapi-key: example-base64
+
+#### (/consulta/list?limit=10) - Consulta as últimas placas cadastradas na minha base de dados
+    GET /consulta/list?limit=10 HTTP/1.1
+    Host: eplacas.p.rapidapi.com
+    x-rapidapi-host: eplacas.p.rapidapi.com
+    x-rapidapi-key: example-base64
+
+#### (/consulta/{plate}) - Consulta uma placa específica
+    GET /consulta/AAA1111 HTTP/1.1
+    Host: eplacas.p.rapidapi.com
+    x-rapidapi-host: eplacas.p.rapidapi.com
+    x-rapidapi-key: example-base64
