@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 
 import {
     SafeAreaView,
@@ -14,17 +14,35 @@ import {
 import { Header } from '../components/Header';
 import { Dimensions } from 'react-native';
 import { useData } from '../shared/hooks/useData';
+import { PLATES_FORMATS } from '../shared/constants/plates.regex';
 
 type TypeProps = {
     navigation: any;
 };
+
 const Home: React.FC<TypeProps> = ({ navigation }) => {
     const [plate, setPlate] = useState<string>('');
+    const [plateValid, setPlateValid] = useState<{ value: boolean }>({
+        value: false
+    });
+
     const windowHeight = Dimensions.get('window').height;
     const data = useData();
     const backgroundStyle = {
         backgroundColor: '#fff'
     };
+
+    useEffect(() => {
+        const plateFormat = PLATES_FORMATS.find((regex: RegExp) =>
+            regex.test(plate)
+        );
+        if (plateFormat) {
+            setPlateValid({ value: true });
+        } else {
+            setPlateValid({ value: false });
+        }
+    }, [plate]);
+
     const handleMakeRequest = useCallback(() => {
         return data
             .handleSearchResult(plate)
@@ -61,6 +79,7 @@ const Home: React.FC<TypeProps> = ({ navigation }) => {
                         <Button
                             title={'Consultar placa'}
                             onPress={() => handleMakeRequest()}
+                            disabled={!plateValid.value}
                         >
                             Consultar placa
                         </Button>
