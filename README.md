@@ -17,15 +17,39 @@
     <a href="https://circleci.com/gh/hebertcisco/eplacas">
       <img alt="CircleCI" src="https://circleci.com/gh/hebertcisco/eplacas.svg?style=svg" />
     </a>
+  <br />
+    <br />
  <a href="https://gitpod.io/#https://github.com/hebertcisco/eplacas">
       <img alt="Gitpod ready-to-code" src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" />
+    </a>
+  <a href="https://www.android.com/intl/pt-BR_br/">
+      <img alt="Android_Studio-3DDC84" src="https://img.shields.io/badge/Android_Studio-3DDC84?style=flat&logo=android-studio&logoColor=white" />
+    </a>
+  <a href="https://www.jetbrains.com/webstorm/">
+      <img alt="WebStorm" src="https://img.shields.io/badge/WebStorm-000000?style=flat&logo=WebStorm&logoColor=white" />
+    </a>
+ <br />
+    <br />
+ <a href="https://reactnative.dev/">
+      <img alt="React_Native" src="https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB" />
+    </a>
+  <a href="https://www.android.com/intl/pt-BR_br/">
+      <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E" />
+    </a>
+  <a href="https://www.jetbrains.com/webstorm/">
+      <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC??style=flat&logo=typescript&logoColor=white" />
     </a>
     <br />
     <br />
   <a href="https://github.com/hebertcisco/eplacas/issues/new/choose">Report Bug</a>
   <a href="https://github.com/hebertcisco/eplacas/issues/new/choose">Request Feature</a>
   </p>
-
+<h3 align="center">Systems on which it has been tested:</h3>
+ <p align="center">
+  <a href="https://www.android.com/intl/pt-BR_br/">
+      <img alt="Android-3DDC84" src="https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white" />
+    </a>
+  </p>
 <p align="center">Gostou o projeto? Por favor considere <a href="https://www.buymeacoffee.com/hebertcisco">ser um apoiador</a> e receba brindes exclusivos!</p>
 
 <p align="center"><strong>App para consulta de placa veicular integrado aos sistemas do Sinesp Cidadão</strong>✨</p>
