@@ -11,11 +11,13 @@ const api = axios.create({
         'x-api-key': `${process.env.API_TOKEN}`
     }
 });
-const { data } = await api({
+async function writeAppConfig() {
+
+  const { data } = await api({
     method: 'get',
     url: '/configs/1'
-});
-async function writeAppConfig() {
+   });
+
     const androidBasePath = path.join(__dirname, '../android');
     async function firebase() {
         const firebasePath = path.join(
