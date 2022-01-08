@@ -1,71 +1,71 @@
 {
-    "name": "eplacas",
-    "version": "0.0.1",
-    "private": true,
-    "scripts": {
-        "android": "react-native run-android",
-        "ios": "react-native run-ios",
-        "start": "react-native start",
-        "test": "jest",
-        "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-        "write:config": "node scripts/write-app-config.js",
-        "prettier:write": "npx prettier --write **/*.{js,jsx,ts,tsx,json} && npx prettier --write *.{js,jsx,ts,tsx,json}"
-    },
-    "dependencies": {
-        "@react-navigation/native": "6.0.6",
-        "@react-navigation/native-stack": "6.2.5",
-        "appcenter": "4.3.0",
-        "appcenter-analytics": "4.3.0",
-        "appcenter-crashes": "4.3.0",
-        "axios": "0.24.0",
-        "dotenv": "10.0.0",
-        "react": "17.0.2",
-        "react-icons": "4.3.1",
-        "react-native": "0.66.4",
-        "react-native-dotenv": "3.3.1",
-        "react-native-safe-area-context": "3.3.2",
-        "react-native-screens": "3.10.1",
-        "react-native-table-component": "1.2.1",
-        "react-navigation-header-buttons": "9.0.1"
-    },
-    "devDependencies": {
-        "@babel/core": "7.16.5",
-        "@babel/runtime": "7.16.5",
-        "@react-native-community/eslint-config": "2.0.0",
-        "@types/axios": "0.14.0",
-        "@types/dotenv": "8.2.0",
-        "@types/jest": "27.0.3",
-        "@types/react-icons": "3.0.0",
-        "@types/react-native": "0.66.9",
-        "@types/react-native-dotenv": "0.2.0",
-        "@types/react-native-table-component": "1.2.3",
-        "@types/react-test-renderer": "17.0.1",
-        "@typescript-eslint/eslint-plugin": "5.8.1",
-        "babel-jest": "27.4.5",
-        "eslint": "7.32.0",
-        "eslint-config-airbnb-typescript": "16.1.0",
-        "eslint-config-prettier": "8.3.0",
-        "eslint-plugin-import": "2.25.3",
-        "eslint-plugin-jsx-a11y": "6.5.1",
-        "eslint-plugin-react": "7.28.0",
-        "jest": "27.4.5",
-        "metro-react-native-babel-preset": "0.66.2",
-        "prettier": "2.5.1",
-        "react-test-renderer": "17.0.2",
-        "typescript": "4.5.4"
-    },
-    "resolutions": {
-        "@types/react": "^17"
-    },
-    "jest": {
-        "preset": "react-native",
-        "moduleFileExtensions": [
-            "ts",
-            "tsx",
-            "js",
-            "jsx",
-            "json",
-            "node"
-        ]
-    }
+  "name": "eplacas",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "write:config": "node scripts/write-app-config.js",
+    "prettier:write": "npx prettier --write **/*.{js,jsx,ts,tsx,json} && npx prettier --write *.{js,jsx,ts,tsx,json}"
+  },
+  "dependencies": {
+    "@react-navigation/native": "6.0.6",
+    "@react-navigation/native-stack": "6.2.5",
+    "appcenter": "4.3.0",
+    "appcenter-analytics": "4.3.0",
+    "appcenter-crashes": "4.3.0",
+    "axios": "0.24.0",
+    "dotenv": "10.0.0",
+    "react": "17.0.2",
+    "react-icons": "4.3.1",
+    "react-native": "0.66.4",
+    "react-native-dotenv": "3.3.1",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-screens": "3.10.1",
+    "react-native-table-component": "1.2.1",
+    "react-navigation-header-buttons": "9.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.16.5",
+    "@babel/runtime": "7.16.5",
+    "@react-native-community/eslint-config": "2.0.0",
+    "@types/axios": "0.14.0",
+    "@types/dotenv": "8.2.0",
+    "@types/jest": "27.0.3",
+    "@types/react-icons": "3.0.0",
+    "@types/react-native": "0.66.9",
+    "@types/react-native-dotenv": "0.2.0",
+    "@types/react-native-table-component": "1.2.3",
+    "@types/react-test-renderer": "17.0.1",
+    "@typescript-eslint/eslint-plugin": "5.8.1",
+    "babel-jest": "27.4.5",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb-typescript": "16.1.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-react": "7.28.0",
+    "jest": "27.4.5",
+    "metro-react-native-babel-preset": "0.66.2",
+    "prettier": "2.5.1",
+    "react-test-renderer": "17.0.2",
+    "typescript": "4.5.4"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
 }
