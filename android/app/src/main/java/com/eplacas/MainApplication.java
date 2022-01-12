@@ -9,11 +9,13 @@ import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
+import com.google.firebase.analytics.FirebaseAnalytics;
+
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
 public class MainApplication extends Application implements ReactApplication {
-
+    private FirebaseAnalytics mFirebaseAnalytics;
   private final ReactNativeHost mReactNativeHost =
       new ReactNativeHost(this) {
         @Override
@@ -45,6 +47,7 @@ public class MainApplication extends Application implements ReactApplication {
     super.onCreate();
     SoLoader.init(this, false);
     initializeFlipper(this, getReactNativeHost().getReactInstanceManager());
+      mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
   }
 
   private static void initializeFlipper(
