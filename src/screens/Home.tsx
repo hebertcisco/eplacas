@@ -110,13 +110,15 @@ const styles = StyleSheet.create({
     },
 
     inputText: {
-        height: 44,
+        height: 48,
+        minHeight: 44,
+        maxHeight: 50,
         left: 0,
         right: 0,
         top: 0,
         backgroundColor: '#FFFFFF',
         borderWidth: 1,
-        borderColor: '#D1D1D6',
+        borderColor: '#C4C4C4',
         borderRadius: 10,
         borderStyle: 'solid',
         alignSelf: 'stretch',
