@@ -110,7 +110,9 @@ const styles = StyleSheet.create({
     },
 
     inputText: {
-        height: 44,
+        height: 48,
+        minHeight: 44,
+        maxHeight: 50,
         left: 0,
         right: 0,
         top: 0,
