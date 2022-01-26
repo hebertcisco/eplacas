@@ -16,7 +16,7 @@
         "@react-navigation/native": "6.0.6",
         "@react-navigation/native-stack": "6.2.5",
         "appcenter": "4.3.0",
-        "appcenter-analytics": "4.3.0",
+        "appcenter-analytics": "4.4.3",
         "appcenter-crashes": "4.3.0",
         "axios": "0.25.0",
         "dotenv": "14.3.2",
