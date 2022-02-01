@@ -50,7 +50,7 @@
       <img alt="Android-3DDC84" src="https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white" />
     </a>
   </p>
-<p align="center">Gostou o projeto? Por favor considere <a href="https://www.buymeacoffee.com/hebertcisco">ser um apoiador</a> e receba brindes exclusivos!</p>
+<p align="center">Gostou o projeto? Por favor considere <a href="https://www.buymeacoffee.com/hebertcisco">ser um apoiador</a>!</p>
 
 <p align="center"><strong>App para consulta de placa veicular integrado aos sistemas do Sinesp Cidadão</strong>✨</p>
 
