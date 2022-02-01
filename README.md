@@ -54,7 +54,7 @@
 
 <p align="center"><strong>App para consulta de placa veicular integrado aos sistemas do Sinesp Cidadão</strong>✨</p>
 
-> #### [Download APK V1.0](https://github.com/hebertcisco/eplacas/releases/download/v1.0/app-release.apk)
+> #### [Download on Google Play Store](https://play.google.com/store/apps/details?id=com.eplacas)
 
 ## User Stories
 
