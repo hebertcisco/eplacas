@@ -82,6 +82,9 @@ android {
 }
 
 dependencies {
+    def sqlite_version = "2.2.0"
+    implementation "androidx.sqlite:sqlite:$sqlite_version"
+
     implementation fileTree(dir: "libs", include: ["*.jar"])
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
