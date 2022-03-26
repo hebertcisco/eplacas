@@ -6,7 +6,6 @@ import {
     StatusBar,
     StyleSheet,
     Text,
-    TextInput,
     View
 } from 'react-native';
 
@@ -14,7 +13,7 @@ import { Header } from '../components/Header';
 import { Dimensions } from 'react-native';
 import { useData } from '../shared/hooks/useData';
 import { PLATES_FORMATS } from '../shared/constants/plates.regex';
-import { Button } from 'react-native-paper';
+import { Button, TextInput } from 'react-native-paper';
 import $THEME from '../shared/styles/theme';
 
 type TypeProps = {
@@ -76,6 +75,9 @@ const Home: React.FC<TypeProps> = ({ navigation }) => {
                             keyboardType={'default'}
                             maxLength={7}
                             onChangeText={(value) => setPlate(value)}
+                            mode="flat"
+                            label={'Placa'}
+                            dense={true}
                         />
                         <Button
                             mode="contained"
@@ -120,11 +122,6 @@ const styles = StyleSheet.create({
         left: 0,
         right: 0,
         top: 0,
-        backgroundColor: '#FFFFFF',
-        borderWidth: 1,
-        borderColor: '#C4C4C4',
-        borderRadius: 10,
-        borderStyle: 'solid',
         alignSelf: 'stretch',
         flexGrow: 0,
         margin: 0,
