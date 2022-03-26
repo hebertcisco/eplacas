@@ -1857,7 +1857,7 @@ appcenter-crashes@4.4.3:
 
 appcenter-link-scripts@4.4.3:
   version "4.4.3"
-  resolved "https://registry.yarnpkg.com/appcenter-link-scripts/-/appcenter-link-scripts-4.4.3.tgz#e0c32693da94954756f5202fca899aa02db90cd8"
+  resolved "https://registry.npmjs.org/appcenter-link-scripts/-/appcenter-link-scripts-4.4.3.tgz"
   integrity sha512-9rp4bqni8SxyFHdYCesWZaHDl2eK07DdKPXABsTHIo0a07yq2eo99FlkSxEHpu3TQNwjnTQRObQ+FtlABYcveQ==
   dependencies:
     debug "4.1.1"
@@ -2718,7 +2718,7 @@ debug@4, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2:
 
 debug@4.1.1:
   version "4.1.1"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
+  resolved "https://registry.npmjs.org/debug/-/debug-4.1.1.tgz"
   integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
   dependencies:
     ms "^2.1.1"
@@ -3608,7 +3608,7 @@ fs.realpath@^1.0.0:
 
 fsevents@^2.1.2, fsevents@^2.3.2:
   version "2.3.2"
-  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
+  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
   integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
 
 function-bind@^1.1.1:
@@ -3689,7 +3689,7 @@ glob-parent@^5.1.2:
 
 glob@5.0.15:
   version "5.0.15"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-5.0.15.tgz#1bc936b9e02f4a603fcc222ecf7633d30b8b93b1"
+  resolved "https://registry.npmjs.org/glob/-/glob-5.0.15.tgz"
   integrity sha1-G8k2ueAvSmA/zCIuz3Yz0wuLk7E=
   dependencies:
     inflight "^1.0.4"
@@ -4206,7 +4206,7 @@ isarray@1.0.0, isarray@~1.0.0:
 
 isexe@^1.1.1:
   version "1.1.2"
-  resolved "https://registry.yarnpkg.com/isexe/-/isexe-1.1.2.tgz#36f3e22e60750920f5e7241a476a8c6a42275ad0"
+  resolved "https://registry.npmjs.org/isexe/-/isexe-1.1.2.tgz"
   integrity sha1-NvPiLmB1CSD15yQaR2qMakInWtA=
 
 isexe@^2.0.0:
@@ -5450,14 +5450,7 @@ mimic-fn@^2.1.0:
   resolved "https://registry.npmjs.org/mimic-fn/-/mimic-fn-2.1.0.tgz"
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
 
-"minimatch@2 || 3":
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
-  integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
-  dependencies:
-    brace-expansion "^1.1.7"
-
-minimatch@^3.0.2, minimatch@^3.0.4:
+"minimatch@2 || 3", minimatch@^3.0.2, minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://registry.npmjs.org/minimatch/-/minimatch-3.0.4.tgz"
   integrity sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
@@ -5466,7 +5459,7 @@ minimatch@^3.0.2, minimatch@^3.0.4:
 
 minimist@1.2.5:
   version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
+  resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.5.tgz"
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
 
 minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
@@ -5492,7 +5485,7 @@ mixin-object@^2.0.1:
 
 mkdirp@0.5.3, mkdirp@^0.5.1:
   version "0.5.3"
-  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.3.tgz#5a514b7179259287952881e94410ec5465659f8c"
+  resolved "https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.3.tgz"
   integrity sha512-P+2gwrFqx8lhew375MQHHeTlY8AuOJSrGf0R5ddkEndUkmwpgUob/vQuBD1V22/Cw1/lJr4x+EjllSezBThzBg==
   dependencies:
     minimist "^1.2.5"
@@ -7427,7 +7420,7 @@ which-module@^2.0.0:
 
 which@1.2.11:
   version "1.2.11"
-  resolved "https://registry.yarnpkg.com/which/-/which-1.2.11.tgz#c8b2eeea6b8c1659fa7c1dd4fdaabe9533dc5e8b"
+  resolved "https://registry.npmjs.org/which/-/which-1.2.11.tgz"
   integrity sha1-yLLu6muMFln6fB3U/aq+lTPcXos=
   dependencies:
     isexe "^1.1.1"
@@ -7515,7 +7508,7 @@ ws@^7, ws@^7.4.6:
 
 xcode@2.0.0, xcode@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/xcode/-/xcode-2.0.0.tgz#134f1f94c26fbfe8a9aaa9724bfb2772419da1a2"
+  resolved "https://registry.npmjs.org/xcode/-/xcode-2.0.0.tgz"
   integrity sha512-5xF6RCjAdDEiEsbbZaS/gBRt3jZ/177otZcpoLCjGN/u1LrfgH7/Sgeeavpr/jELpyDqN2im3AKosl2G2W8hfw==
   dependencies:
     simple-plist "^1.0.0"
