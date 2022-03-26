@@ -29,8 +29,8 @@
         "react-navigation-header-buttons": "^8.0.0"
     },
     "devDependencies": {
-        "@babel/core": "7.16.5",
-        "@babel/runtime": "7.16.5",
+        "@babel/core": "7.17.8",
+        "@babel/runtime": "7.17.8",
         "@react-native-community/eslint-config": "2.0.0",
         "@types/axios": "0.14.0",
         "@types/dotenv": "8.2.0",
