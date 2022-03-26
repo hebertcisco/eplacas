@@ -18,7 +18,7 @@
         "appcenter": "^4.4.3",
         "appcenter-analytics": "4.4.3",
         "appcenter-crashes": "^4.4.3",
-        "axios": "0.25.0",
+        "axios": "0.26.1",
         "dotenv": "14.3.2",
         "react": "17.0.2",
         "react-icons": "4.3.1",
