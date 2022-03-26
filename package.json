@@ -13,8 +13,8 @@
     },
     "dependencies": {
         "@react-native-firebase/app": "^14.2.2",
-        "@react-navigation/native": "6.0.6",
-        "@react-navigation/native-stack": "6.2.5",
+        "@react-navigation/native": "6.0.8",
+        "@react-navigation/native-stack": "6.5.2",
         "appcenter": "4.3.0",
         "appcenter-analytics": "4.3.0",
         "appcenter-crashes": "4.3.0",
