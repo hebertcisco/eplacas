@@ -12,7 +12,7 @@
         "prettier:write": "npx prettier --write **/*.{js,jsx,ts,tsx,json} && npx prettier --write *.{js,jsx,ts,tsx,json}"
     },
     "dependencies": {
-        "@react-native-firebase/app": "^14.2.2",
+        "@react-native-firebase/app": "14.2.2",
         "@react-navigation/native": "6.0.6",
         "@react-navigation/native-stack": "6.2.5",
         "appcenter": "4.3.0",
