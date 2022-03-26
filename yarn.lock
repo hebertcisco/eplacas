@@ -1848,7 +1848,7 @@ appcenter-analytics@4.4.3:
   dependencies:
     appcenter "4.4.3"
 
-appcenter-crashes@^4.4.3:
+appcenter-crashes@4.4.3:
   version "4.4.3"
   resolved "https://registry.npmjs.org/appcenter-crashes/-/appcenter-crashes-4.4.3.tgz"
   integrity sha512-vroN9XvsEzkVXsidO9F0h+lALR5+YIVrt2TqbeTTAUHEQBemJMp3V1wudw/3xPKRm7D+UaOrEf1t0xoQZi52SA==
@@ -1868,7 +1868,7 @@ appcenter-link-scripts@4.4.3:
     which "1.2.11"
     xcode "2.0.0"
 
-appcenter@4.4.3, appcenter@^4.4.3:
+appcenter@4.4.3:
   version "4.4.3"
   resolved "https://registry.npmjs.org/appcenter/-/appcenter-4.4.3.tgz"
   integrity sha512-4AnVZnjh0oJvnW466Tk8DK7Fn0ZkMYC4G5aJn7j3yKc2kWAfnNHAOF8V9BAGpIOAZCTyEQy8Wx3iCqrR0rSBEg==
@@ -6175,7 +6175,7 @@ react-native-table-component@1.2.1:
   resolved "https://registry.npmjs.org/react-native-table-component/-/react-native-table-component-1.2.1.tgz"
   integrity sha512-sapwO0bONfQtpWg3GVMwP5D3lGEJlxPB3c7fb0soXBynvCa+SBktacVZ9OmYJnIbRJ3uW5pS4tzNc8GmE+UScw==
 
-react-native@^0.67.4:
+react-native@0.67.4:
   version "0.67.4"
   resolved "https://registry.npmjs.org/react-native/-/react-native-0.67.4.tgz"
   integrity sha512-NA9d9lNJu9TViEJu2uZxWXUP+QNUilGGA5tdMbVFedNroOH1lnQ3n/FAVoGK1gqGarCgNTtheBxUpEa979Cu8w==
@@ -6211,7 +6211,7 @@ react-native@^0.67.4:
     whatwg-fetch "^3.0.0"
     ws "^6.1.4"
 
-react-navigation-header-buttons@^8.0.0:
+react-navigation-header-buttons@8.0.0:
   version "8.0.0"
   resolved "https://registry.npmjs.org/react-navigation-header-buttons/-/react-navigation-header-buttons-8.0.0.tgz"
   integrity sha512-VxtkUypV9prZ+RyQsc90I6u0YhJLc0ry/4iq/yl9N0g7hHi3EhXMz6kQbtHbOy9u9qDhxVuk9UTJjZyt6ef94Q==
