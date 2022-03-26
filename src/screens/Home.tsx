@@ -7,14 +7,15 @@ import {
     StyleSheet,
     Text,
     TextInput,
-    View,
-    Button
+    View
 } from 'react-native';
 
 import { Header } from '../components/Header';
 import { Dimensions } from 'react-native';
 import { useData } from '../shared/hooks/useData';
 import { PLATES_FORMATS } from '../shared/constants/plates.regex';
+import { Button } from 'react-native-paper';
+import $THEME from '../shared/styles/theme';
 
 type TypeProps = {
     navigation: any;
@@ -77,9 +78,12 @@ const Home: React.FC<TypeProps> = ({ navigation }) => {
                             onChangeText={(value) => setPlate(value)}
                         />
                         <Button
-                            title={'Consultar placa'}
+                            mode="contained"
                             onPress={() => handleMakeRequest()}
                             disabled={!plateValid.value}
+                            color={
+                                plateValid.value ? $THEME.colors.primary : $THEME.colors.disabled
+                            }
                         >
                             Consultar placa
                         </Button>
