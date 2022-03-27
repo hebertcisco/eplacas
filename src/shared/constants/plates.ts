@@ -1,0 +1,1 @@
+export const PLATES_CACHE_KEY = 'plates';
