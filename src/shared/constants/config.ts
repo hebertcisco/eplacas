@@ -1,0 +1,7 @@
+export const DEFAULT_EXPIRES_CACHE = 1000 * 3600 * 24 * 365;
+export const DEFAULT_STORAGE_SIZE = 1000;
+
+export default {
+  DEFAULT_EXPIRES_CACHE,
+  DEFAULT_STORAGE_SIZE
+};
