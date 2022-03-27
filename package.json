@@ -12,12 +12,10 @@
         "prettier:write": "npx prettier --write **/*.{js,jsx,ts,tsx,json} && npx prettier --write *.{js,jsx,ts,tsx,json}"
     },
     "dependencies": {
+        "@react-native-async-storage/async-storage": "^1.17.0",
         "@react-native-firebase/app": "^14.2.2",
         "@react-navigation/native": "6.0.6",
         "@react-navigation/native-stack": "6.2.5",
-        "appcenter": "4.3.0",
-        "appcenter-analytics": "4.3.0",
-        "appcenter-crashes": "4.3.0",
         "axios": "0.24.0",
         "dotenv": "11.0.0",
         "react": "17.0.2",
@@ -30,7 +28,9 @@
         "react-native-paper": "^4.11.2",
         "react-native-safe-area-context": "3.3.2",
         "react-native-screens": "3.10.1",
+        "react-native-storage": "^0.2.4",
         "react-native-table-component": "1.2.1",
+        "react-native-uuid": "^2.0.1",
         "react-native-vector-icons": "^9.1.0",
         "react-navigation-header-buttons": "9.0.1"
     },
