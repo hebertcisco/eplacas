@@ -60,7 +60,7 @@
 
 -   [x] O usuário insere uma placa veícular e aperta pesquisar
 -   [x] É retornado o resultado sobre a placa veicular
--   [ ] O usuário pode visualizar uma lista que contém o histórico de consultas
+-   [x] O usuário pode visualizar uma lista que contém o histórico de consultas
 
 ## Bonus features
 
