@@ -134,7 +134,7 @@ npm run ios
 
 ## Documentação E-Placas API
 
-> Link para obter chaves da API: [https://eplacas.p.rapidapi.com/subscription](https://rapidapi.com/tecnobertinfo@gmail.com/api/eplacas/)
+> Link para obter chaves da API: [https://eplacas.p.rapidapi.com/subscription](https://api-placas.hotbrains.com.br/subscription)
 
 Essa é a documentação básica relacionada à API do E-Placas. Será descrito como a API funciona, como utilizar a mesma, e como utilizar os serviços disponíveis.
 
