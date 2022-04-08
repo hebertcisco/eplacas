@@ -15,7 +15,7 @@ jobs:
       - restore_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}
       - run:
-          name: Install deps
+          name: Install legacy deps
           command: npm install --legacy-peer-deps
       - run:
           name: Write config
