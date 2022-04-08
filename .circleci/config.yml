@@ -1,4 +1,6 @@
 version: 2
+orbs:
+  node: circleci/node@16
 jobs:
   android:
     working_directory: ~/repo
