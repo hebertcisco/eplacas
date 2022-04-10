@@ -65,7 +65,7 @@ const Home: React.FC<TypeProps> = ({ navigation }) => {
         <View style={styles.mainContainer}>
           <Text style={styles.sectionText}>
             Informe a placa do seu veículo. Ex:{" "}
-            <Text style={styles.highlight}>AAA1232</Text>
+            <Text style={styles.highlight}>BRA0S17</Text>
           </Text>
           <View style={styles.mainBox}>
             <TextInput
