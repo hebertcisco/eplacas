@@ -18,7 +18,10 @@ jobs:
           key: dependency-cache-{{ checksum "package-lock.json" }}
       - run:
           name: Install legacy deps
-          command: npm ci
+          command: npm i -g yarn    
+      - run:
+          name: Install deps
+          command: yarn install
       - run:
           name: Write config
           command: npm rum write:config
